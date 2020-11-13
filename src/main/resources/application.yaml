@@ -1,0 +1,30 @@
+# This application will be sample application for the Spring boot with Rabbit MQ for Queue system
+server:
+  port: 8090
+  servlet:
+    context-path: /springrestdocs
+# Data Base Properties
+spring:
+  datasource:
+    username: root
+    password: tagit
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/study?useSSL=false
+    initialization-mode: never
+    type: com.mysql.cj.jdbc.MysqlConnectionPoolDataSource
+  main:
+    banner-mode: console
+    allow-bean-definition-overriding: true
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration
+# JPA Properties
+  jpa:
+    show-sql: true
+    open-in-view: true
+    properties:
+      release_mode: after_transaction
+      agressive_release: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl

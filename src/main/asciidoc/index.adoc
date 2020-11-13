@@ -1,0 +1,22 @@
+= Sample Rest API Docs
+v{version}, JGSudhakar , {date}
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 3
+:sectlinks:
+:sectnums:
+
+[introduction]
+== Introduction
+This is a sample application to demo the Spring Rest Docs
+
+== Creating a Project
+
+=== List Of Employees Request
+include::{snippets}/shouldReturnDefaultList/http-request.adoc[]
+
+=== List Of Employees Response
+include::{snippets}/shouldReturnDefaultList/http-response.adoc[]
