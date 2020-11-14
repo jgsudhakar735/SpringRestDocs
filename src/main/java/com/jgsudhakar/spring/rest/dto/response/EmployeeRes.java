@@ -1,9 +1,5 @@
 package com.jgsudhakar.spring.rest.dto.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.io.Serializable;
 
 /**
@@ -18,15 +14,15 @@ public class EmployeeRes implements Serializable {
 
     private String employeeName;
 
-    private String employeeDepartment;
+    private String empLastName;
 
     public EmployeeRes() {
     }
 
-    public EmployeeRes(Long empId, String employeeName, String employeeDepartment) {
+    public EmployeeRes(Long empId, String employeeName, String empLastName) {
         this.empId = empId;
         this.employeeName = employeeName;
-        this.employeeDepartment = employeeDepartment;
+        this.empLastName = empLastName;
     }
 
     public Long getEmpId() {
@@ -45,11 +41,11 @@ public class EmployeeRes implements Serializable {
         this.employeeName = employeeName;
     }
 
-    public String getEmployeeDepartment() {
-        return employeeDepartment;
+    public String getEmpLastName() {
+        return empLastName;
     }
 
-    public void setEmployeeDepartment(String employeeDepartment) {
-        this.employeeDepartment = employeeDepartment;
+    public void setEmpLastName(String empLastName) {
+        this.empLastName = empLastName;
     }
 }

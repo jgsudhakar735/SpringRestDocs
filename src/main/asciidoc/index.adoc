@@ -9,14 +9,50 @@ v{version}, JGSudhakar , {date}
 :sectlinks:
 :sectnums:
 
+
 [introduction]
 == Introduction
 This is a sample application to demo the Spring Rest Docs
 
 == Creating a Project
 
-=== List Of Employees Request
+== API End Points and Details
+
+=== List
+==== Request
 include::{snippets}/shouldReturnDefaultList/http-request.adoc[]
 
-=== List Of Employees Response
+==== Response
+include::{snippets}/shouldReturnDefaultList/http-response.adoc[]
+
+
+=== Get
+==== Request
+include::{snippets}/shouldReturnEmployee/http-request.adoc[]
+
+==== Response
+include::{snippets}/shouldReturnEmployee/http-response.adoc[]
+
+
+=== Save
+==== Request
+include::{snippets}/shouldSaveAndReturnEmployee/http-request.adoc[]
+
+==== Response
+include::{snippets}/shouldSaveAndReturnEmployee/http-response.adoc[]
+
+
+=== Update
+==== Request
+include::{snippets}/shouldUpdateAndReturnEmployee/http-request.adoc[]
+
+==== Response
+include::{snippets}/shouldUpdateAndReturnEmployee/http-response.adoc[]
+
+
+=== Delete
+==== Request
+include::{snippets}/shouldReturnDefaultList/http-request.adoc[]
+
+==== Response
 include::{snippets}/shouldReturnDefaultList/http-response.adoc[]
