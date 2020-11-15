@@ -16,4 +16,4 @@ This is a sample Project with Spring Rest Docs with JUnit
 5. Open the file. you can see the adoc file converted as HTML content.</br>
 
 <h2>Sample File Run from Intellj IDE</h2>
-<img src="https://github.com/jgsudhakar735/SpringRestDocs/blob/master/images/SampleDocImage.PNG">
+<img src="https://github.com/jgsudhakar735/SpringRestDocs/blob/main/images/SampleDocImage.PNG">
